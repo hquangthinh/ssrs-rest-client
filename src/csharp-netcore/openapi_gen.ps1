@@ -1,0 +1,1 @@
+npx @openapitools/openapi-generator-cli generate -i microsoft-rs-SSRS-2.0-swagger.json -g csharp-netcore -o ./generated/SSRSRestV2/ --skip-validate-spec -c SSRSRestV2.config.json -t ./../../openapi-generator-templates/csharp-netcore
